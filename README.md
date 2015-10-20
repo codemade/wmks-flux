@@ -1,4 +1,4 @@
-#React talk for Webmontag Kassel
+#Flux talk for Webmontag Kassel
 
 Authors: René Viering, Christian Kühl
 
