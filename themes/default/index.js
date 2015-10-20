@@ -3,7 +3,7 @@ const colors = {
   primary: "black",
   secondary: "#f9c300",
   tertiary: "white",
-  quartary: "#00D8FF"
+  quartary: "#44B74A"
 };
 
 const fonts = {
