@@ -5,7 +5,7 @@
   "description": "flux presentation for wmks",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --port 3001",
     "lint": "eslint --ext .js,.jsx .",
     "build": "webpack",
     "deploy": "npm run build && surge -p ./dist"
