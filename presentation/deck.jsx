@@ -22,7 +22,8 @@ const images = {
   caffeine_components: require("./img/caffeine_components.png"),
   view_action_store: require("./img/view_action_store.png"),
   view_action_store_dispatcher: require("./img/view_action_store_dispatcher.png"),
-  view_action_store_event: require("./img/view_action_store_event.png")
+  view_action_store_event: require("./img/view_action_store_event.png"),
+  applauseMinions: require("./img/applauseMinions.gif")
 };
 
 const styles = {
@@ -361,6 +362,75 @@ export default class extends React.Component {
               # and pulls new data from the store.
             </Heading>
         </Slide> 
+
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            Actions
+          </Heading>
+          <List>
+            <ListItem><Appear fid="1">... contain at least the description of an intention to do something</Appear></ListItem>
+            <ListItem><Appear fid="2">... often include an additional payload</Appear></ListItem>
+          </List>
+        </Slide>
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            Dispatcher
+          </Heading>
+          <List>
+            <ListItem><Appear fid="1">... dispatches actions to the registered stores</Appear></ListItem>
+          </List>
+        </Slide>
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            Stores
+          </Heading>
+          <List>
+            <ListItem><Appear fid="1">... hold state and data of the application</Appear></ListItem>
+            <ListItem><Appear fid="2">... register a callback with the dispatcher for specific actions</Appear></ListItem>
+            <ListItem><Appear fid="2">... react to actions and actualize their state</Appear></ListItem>
+            <ListItem><Appear fid="2">... fire events if they changed their state (in consequence of actions)</Appear></ListItem>
+            <ListItem><Appear fid="2">... are single sources of truth</Appear></ListItem>
+            <ListItem><Appear fid="2">In real-world apps there are many stores</Appear></ListItem>
+          </List>
+        </Slide>
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            Views
+          </Heading>
+          <List>
+            <ListItem><Appear fid="1">... react to change events from stores</Appear></ListItem>
+            <ListItem><Appear fid="2">Any number of components can react to change events</Appear></ListItem>
+            <ListItem><Appear fid="2">... trigger actions</Appear></ListItem>
+          </List>
+        </Slide>
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            Choose wisely!
+          </Heading>
+          <Heading size={1} fit textColor="white">
+            #architecture #library #everything
+          </Heading>
+        </Slide>
+
+        <Slide transition={["slide"]}>
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            The fact you know FLUX / REACT
+          </Heading>
+          <Heading size={1} fit textColor="white">
+            doesn't mean to use it for EVERYTHING!
+          </Heading>
+        </Slide>
+
+        <Slide transition={["slide"]} bgImage={images.applauseMinions} bgDarken="0.7">
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            The end!
+          </Heading>
+        </Slide>
       </Deck>
     );
   }
