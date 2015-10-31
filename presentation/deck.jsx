@@ -133,7 +133,7 @@ export default class extends React.Component {
         <Slide transition={["slide"]}>
           <BlockQuote>
             <Quote>
-              No one knows how to structure a front-end application
+              Is there anyone who really knows how to structure a front-end application?
             </Quote>
           </BlockQuote>
         </Slide>
