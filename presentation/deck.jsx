@@ -201,7 +201,7 @@ export default class extends React.Component {
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Heading size={2} fit>
-            The users clicks on an article to add
+            The user clicks on an article to add
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -247,7 +247,7 @@ export default class extends React.Component {
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Heading size={2} fit>
-            The users adds the coupon code and clicks 'redeem'
+            The user adds the coupon code and clicks 'redeem'
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
