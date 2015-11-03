@@ -317,22 +317,20 @@ export default class extends React.Component {
           </Heading>
         </Slide>
 
-        <Slide bgImage={images.caffeine} bgDarken="0.99">
-          <Image src={images.view_action_store_dispatcher} width="900"/>
+        <Slide>
+          <Image src={images.view_action_store_dispatcher} width="700"/>
+          <Appear>
+            <Text textColor="tertiary">
+              How does a view notice, that something changed?
+            </Text>
+          </Appear>
         </Slide>
 
         <Slide>
-          <Image src={images.view_action_store_dispatcher} width="900"/>
-          <Heading size={1} fit>
-            How did a view notice, that anything changed?
-          </Heading>
-        </Slide>
-
-        <Slide>
-          <Image src={images.view_action_store_dispatcher} width="900"/>
-          <Heading size={1} fit>
-            i.e. the shopping card re-renders, if an article has been added!?
-          </Heading>
+          <Image src={images.view_action_store_dispatcher} width="700"/>
+          <Text textColor="tertiary">
+            i.e. the shopping card re-renders, when an article was added!?
+          </Text>
         </Slide>
 
         <Slide>
@@ -344,36 +342,36 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
           <Appear>
-            <Heading size={2} fit>
+            <Text textColor="secondary">
               If there is something new, send a mail to all subscribers.
-            </Heading>
+            </Text>
           </Appear>
           <Appear>
             <Heading size={2} textColor="white">
-              # Store fires an event
+              # Store fires event
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
-          <Heading size={2} fit>
-            Subscribers get notified and pull the new mails.
-          </Heading>
+          <Text textColor="secondary">
+            Subscribers get notified & pull new mails.
+          </Text>
           <Appear>
             <Heading size={2} textColor="white">
-              # the view gets notified
+              # View gets notified
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
-          <Heading size={2} fit>
-            Subscribers get notified and pull the new mails.
-          </Heading>
+          <Text textColor="secondary">
+            Subscribers get notified & pull new mails.
+          </Text>
             <Heading size={2} textColor="white" fit>
-              # and pulls new data from the store.
+              # pulls data from store
             </Heading>
         </Slide>
 
