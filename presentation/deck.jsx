@@ -130,8 +130,10 @@ export default class extends React.Component {
         </Slide>
 
         <Slide transition={["slide"]}>
-          <Heading size={1} fit textColor="quartary" textFont="secondary">
-            How to structure <br/>
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            How to structure
+          </Heading>
+          <Heading size={1} fit textColor="tertiary" textFont="secondary">
             a Frontend Application?
           </Heading>
         </Slide>
@@ -150,7 +152,7 @@ export default class extends React.Component {
             The real problem:
           </Heading>
           <Appear>
-            <Heading size={2} fit textColor="secondary">
+            <Heading size={2} fit textColor="quartary">
               Data Flow
             </Heading>
           </Appear>
@@ -168,7 +170,7 @@ export default class extends React.Component {
           </Heading>
           <List>
             <ListItem><Appear fid="1">Show all products</Appear></ListItem>
-            <ListItem><Appear fid="2">Add article to shopping cart (and actualize shopping cart)</Appear></ListItem>
+            <ListItem><Appear fid="2">Add article to shopping cart</Appear></ListItem>
             <ListItem><Appear fid="3">Filter articles by intensity</Appear></ListItem>
             <ListItem><Appear fid="4">Show all articles in the shopping cart</Appear></ListItem>
             <ListItem><Appear fid="5">Increase/decrease article amount</Appear></ListItem>
@@ -178,7 +180,7 @@ export default class extends React.Component {
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Heading size={2} fit>
-            Add article to shopping cart
+            "Add article to shopping cart"
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -188,8 +190,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Add article to shopping cart"
+          </Text>
           <Heading size={2} fit>
-            The user sees the article list
+            Display the article list
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -199,8 +204,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Add article to shopping cart"
+          </Text>
           <Heading size={2} fit>
-            The user clicks on an article to add
+            User clicks on an article
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -210,8 +218,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Add article to shopping cart"
+          </Text>
           <Heading size={2} fit>
-            It needs to be saved, that the article has been added.
+            Store article in shopping cart
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -219,8 +230,6 @@ export default class extends React.Component {
             </Heading>
           </Appear>
         </Slide>
-
-
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Heading size={2} fit>
@@ -234,8 +243,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Redeem a coupon"
+          </Text>
           <Heading size={2} fit>
-            The user sees the shopping cart
+            Display shopping cart
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -245,8 +257,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Redeem a coupon"
+          </Text>
           <Heading size={2} fit>
-            The user adds the coupon code and clicks 'redeem'
+            User enters coupon code and clicks 'redeem'
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
@@ -256,8 +271,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
+          <Text textColor="#65878F">
+            Use Case: "Redeem a coupon"
+          </Text>
           <Heading size={2} fit>
-            The total price must be reduced by 15%
+            Reduce total price by 15%
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
