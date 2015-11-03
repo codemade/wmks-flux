@@ -10,8 +10,6 @@ import preloader from "../src/utils/preloader";
 import Interactive from "./interactive";
 
 const images = {
-  city: require("./city.jpg"),
-  kat: require("./kat.png"),
   flux: require("./flux.svg"),
   codemade: require("./codemade.png"),
   chrkhl: require("./chrkhl.png"),
@@ -64,7 +62,7 @@ export default class extends React.Component {
           </Heading>
           <Layout>
             <Fill>
-              <Text textColor="secondary">
+              <Text textColor="tertiary">
                 <Image src={images.revrng} style={styles.avatar}/>
                 <br />
                 René Viering
@@ -78,7 +76,7 @@ export default class extends React.Component {
               </Text>
             </Fill>
             <Fill>
-              <Text textColor="secondary">
+              <Text textColor="tertiary">
                 <Image src={images.chrkhl} style={styles.avatar}/>
                 <br />
                 Christian Kühl
@@ -325,7 +323,7 @@ export default class extends React.Component {
           <Heading size={1} fit>
             Do it like a mailing list.
           </Heading>
-        </Slide>        
+        </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
@@ -339,29 +337,29 @@ export default class extends React.Component {
               # Store fires an event
             </Heading>
           </Appear>
-        </Slide> 
+        </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
           <Heading size={2} fit>
-            Subscribers get notified and pull the new mails. 
+            Subscribers get notified and pull the new mails.
           </Heading>
           <Appear>
             <Heading size={2} textColor="white">
               # the view gets notified
             </Heading>
           </Appear>
-        </Slide> 
+        </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store_event} width="800"/>
           <Heading size={2} fit>
-            Subscribers get notified and pull the new mails. 
+            Subscribers get notified and pull the new mails.
           </Heading>
             <Heading size={2} textColor="white" fit>
               # and pulls new data from the store.
             </Heading>
-        </Slide> 
+        </Slide>
 
 
         <Slide transition={["slide"]}>
