@@ -41,7 +41,8 @@ const buttonStyles = {
   borderRadius: '4px',
   fontSize: '20px',
   padding: '10px',
-  color: 'white'
+  color: 'white',
+  textDecoration:'none'
 };
 
 export default class extends React.Component {
@@ -159,7 +160,7 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.9">
-          <Link style={buttonStyles} href="http://codemade.js.org/caffeine">Go to coffee store</Link>
+          <a style={buttonStyles} href="http://codemade.js.org/caffeine" target="_blank">Go to coffee store</a>
         </Slide>
 
         <Slide bgImage={images.caffeine_components}></Slide>
