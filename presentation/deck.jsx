@@ -7,15 +7,13 @@ import {
 
 import preloader from "../src/utils/preloader";
 
-import Interactive from "./interactive";
-
 const images = {
-  flux: require("./flux.svg"),
-  codemade: require("./codemade.png"),
-  chrkhl: require("./chrkhl.png"),
-  revrng: require("./revrng.png"),
-  twitter: require("./twitter.svg"),
-  github: require("./github.svg"),
+  flux: require("./img/flux.svg"),
+  codemade: require("./img/codemade.png"),
+  chrkhl: require("./img/chrkhl.png"),
+  revrng: require("./img/revrng.png"),
+  twitter: require("./img/twitter.svg"),
+  github: require("./img/github.svg"),
   caffeine: require("./img/caffeine.png"),
   caffeine_components: require("./img/caffeine_components.png"),
   view_action_store: require("./img/view_action_store.png"),
