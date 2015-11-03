@@ -132,11 +132,10 @@ export default class extends React.Component {
         </Slide>
 
         <Slide transition={["slide"]}>
-          <BlockQuote>
-            <Quote>
-              Is there anyone who really knows how to structure a front-end application?
-            </Quote>
-          </BlockQuote>
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            How to structure <br/>
+            a Frontend Application?
+          </Heading>
         </Slide>
 
         <Slide transition={["slide"]}>
