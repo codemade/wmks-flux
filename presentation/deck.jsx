@@ -15,6 +15,7 @@ const images = {
   twitter: require("./img/twitter.svg"),
   github: require("./img/github.svg"),
   caffeine: require("./img/caffeine.png"),
+  future: require("./img/future.jpg"),
   caffeine_components: require("./img/caffeine_components.png"),
   view_action_store: require("./img/view_action_store.png"),
   view_action_store_dispatcher: require("./img/view_action_store_dispatcher.png"),
@@ -22,7 +23,12 @@ const images = {
   mailinglist: require("./img/mailinglist.jpg"),
   applauseMinions: require("./img/applauseMinions.gif"),
   decision: require("./img/decision.jpg"),
-  silverbullet: require("./img/silverbullet.jpg")
+  silverbullet: require("./img/silverbullet.jpg"),
+  action: require("./img/action.jpg"),
+  dispatcher: require("./img/dispatcher.jpg"),
+  store: require("./img/store.jpg"),
+  view: require("./img/view.jpg"),
+  party: require("./img/party.gif")
 };
 
 const styles = {
@@ -92,7 +98,7 @@ export default class extends React.Component {
             </Fill>
           </Layout>
         </Slide>
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.future} copyright="flickr photo by JD Hancock https://flic.kr/p/fxqgHb shared under a Creative Commons (BY) license">
           <Heading size={1} fit textColor="quartary" textFont="secondary">
             What is Flux ?
           </Heading>
@@ -376,8 +382,7 @@ export default class extends React.Component {
             </Heading>
         </Slide>
 
-
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.action} copyright="flickr photo by Satish Viswanath https://flic.kr/p/gPnyDr shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
             Action
           </Heading>
@@ -388,7 +393,7 @@ export default class extends React.Component {
           </List>
         </Slide>
 
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.dispatcher} copyright="flickr photo by christopher_brown https://flic.kr/p/fVSY8s shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
             Dispatcher
           </Heading>
@@ -397,7 +402,7 @@ export default class extends React.Component {
           </List>
         </Slide>
 
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.store} copyright="flickr photo by m-louis .® https://flic.kr/p/vzkLSc shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
             Store
           </Heading>
@@ -411,7 +416,7 @@ export default class extends React.Component {
           </List>
         </Slide>
 
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.view} copyright="flickr photo by Jeramey Jannene https://flic.kr/p/8F8FGm shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
             View
           </Heading>
@@ -422,7 +427,7 @@ export default class extends React.Component {
           </List>
         </Slide>
 
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgDarken="0.7" bgImage={images.party} copyright="http://disney.tumblr.com/post/129349535330/yeah-man">
           <Heading size={1} fit textColor="quartary" textFont="secondary">
             Now you know FLUX & REACT
           </Heading>
