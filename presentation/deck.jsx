@@ -19,6 +19,7 @@ const images = {
   view_action_store: require("./img/view_action_store.png"),
   view_action_store_dispatcher: require("./img/view_action_store_dispatcher.png"),
   view_action_store_event: require("./img/view_action_store_event.png"),
+  mailinglist: require("./img/mailinglist.jpg"),
   applauseMinions: require("./img/applauseMinions.gif")
 };
 
@@ -331,13 +332,13 @@ export default class extends React.Component {
           </Text>
         </Slide>
 
-        <Slide>
+        <Slide bgImage={images.mailinglist} bgDarken="0.8" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Heading size={1} fit textColor="quartary">
             Do it like a mailing list.
           </Heading>
         </Slide>
 
-        <Slide bgImage={images.caffeine} bgDarken="0.95">
+        <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
           <Appear>
             <Text textColor="secondary">
@@ -351,7 +352,7 @@ export default class extends React.Component {
           </Appear>
         </Slide>
 
-        <Slide bgImage={images.caffeine} bgDarken="0.95">
+        <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
           <Text textColor="secondary">
             Subscribers get notified & pull new mails.
@@ -363,7 +364,7 @@ export default class extends React.Component {
           </Appear>
         </Slide>
 
-        <Slide bgImage={images.caffeine} bgDarken="0.95">
+        <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
           <Text textColor="secondary">
             Subscribers get notified & pull new mails.
