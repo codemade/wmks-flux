@@ -104,19 +104,19 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgColor="#e74c3c">
-          <Heading size={2} textColor="white">
+          <Heading size={2} textColor="tertiary">
             # no framework
           </Heading>
         </Slide>
 
         <Slide bgColor="#e74c3c">
-          <Heading size={2} textColor="white">
+          <Heading size={2} textColor="tertiary">
             # no library
           </Heading>
         </Slide>
 
         <Slide bgColor="#27ae60">
-          <Heading size={2} textColor="white">
+          <Heading size={2} textColor="tertiary">
             # just a pattern
           </Heading>
         </Slide>
@@ -181,7 +181,7 @@ export default class extends React.Component {
             "Add article to shopping cart"
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               How does it work?
             </Heading>
           </Appear>
@@ -195,7 +195,7 @@ export default class extends React.Component {
             Display the article list
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # view
             </Heading>
           </Appear>
@@ -209,7 +209,7 @@ export default class extends React.Component {
             User clicks on an article
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # action
             </Heading>
           </Appear>
@@ -223,7 +223,7 @@ export default class extends React.Component {
             Store article in shopping cart
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # store
             </Heading>
           </Appear>
@@ -234,7 +234,7 @@ export default class extends React.Component {
             Redeem a coupon
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               How does it work?
             </Heading>
           </Appear>
@@ -248,7 +248,7 @@ export default class extends React.Component {
             Display shopping cart
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # view
             </Heading>
           </Appear>
@@ -262,7 +262,7 @@ export default class extends React.Component {
             User enters coupon code and clicks 'redeem'
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # action
             </Heading>
           </Appear>
@@ -276,7 +276,7 @@ export default class extends React.Component {
             Reduce total price by 15%
           </Heading>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # store
             </Heading>
           </Appear>
@@ -285,7 +285,7 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <Appear>
-            <Heading size={1} textColor="white" fit>
+            <Heading size={1} textColor="tertiary" fit>
               FLUX
             </Heading>
           </Appear>
@@ -294,7 +294,7 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-            <Heading size={1} textColor="white" fit>
+            <Heading size={1} textColor="tertiary" fit>
               How do action details get into the store?
             </Heading>
         </Slide>
@@ -302,7 +302,7 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-            <Heading size={1} textColor="white" fit>
+            <Heading size={1} textColor="tertiary" fit>
               How many stores do you need?
             </Heading>
         </Slide>
@@ -310,7 +310,7 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-          <Heading size={1} textColor="white" fit>
+          <Heading size={1} textColor="tertiary" fit>
             What if many stores are interested in an action?
           </Heading>
         </Slide>
@@ -345,7 +345,7 @@ export default class extends React.Component {
             </Text>
           </Appear>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # Store fires event
             </Heading>
           </Appear>
@@ -357,7 +357,7 @@ export default class extends React.Component {
             Subscribers get notified & pull new mails.
           </Text>
           <Appear>
-            <Heading size={2} textColor="white">
+            <Heading size={2} textColor="tertiary">
               # View gets notified
             </Heading>
           </Appear>
@@ -368,7 +368,7 @@ export default class extends React.Component {
           <Text textColor="secondary">
             Subscribers get notified & pull new mails.
           </Text>
-            <Heading size={2} textColor="white" fit>
+            <Heading size={2} textColor="tertiary" fit>
               # pulls data from store
             </Heading>
         </Slide>
@@ -422,7 +422,7 @@ export default class extends React.Component {
           <Heading size={1} fit textColor="quartary" textFont="secondary">
             Choose wisely!
           </Heading>
-          <Heading size={1} fit textColor="white">
+          <Heading size={1} fit textColor="tertiary">
             #architecture #library #everything
           </Heading>
         </Slide>
@@ -431,7 +431,7 @@ export default class extends React.Component {
           <Heading size={1} fit textColor="quartary" textFont="secondary">
             The fact you know FLUX / REACT
           </Heading>
-          <Heading size={1} fit textColor="white">
+          <Heading size={1} fit textColor="tertiary">
             doesn't mean to use it for EVERYTHING!
           </Heading>
         </Slide>
