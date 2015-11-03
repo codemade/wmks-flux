@@ -20,7 +20,9 @@ const images = {
   view_action_store_dispatcher: require("./img/view_action_store_dispatcher.png"),
   view_action_store_event: require("./img/view_action_store_event.png"),
   mailinglist: require("./img/mailinglist.jpg"),
-  applauseMinions: require("./img/applauseMinions.gif")
+  applauseMinions: require("./img/applauseMinions.gif"),
+  decision: require("./img/decision.jpg"),
+  silverbullet: require("./img/silverbullet.jpg")
 };
 
 const styles = {
@@ -422,19 +424,56 @@ export default class extends React.Component {
 
         <Slide transition={["slide"]}>
           <Heading size={1} fit textColor="quartary" textFont="secondary">
-            Choose wisely!
+            Now you know FLUX & REACT
           </Heading>
-          <Heading size={1} fit textColor="tertiary">
-            #architecture #library #everything
+          <br />
+          <Appear>
+            <Heading size={1} textColor="tertiary">
+              Cool!
+            </Heading>
+          </Appear>
+          <Appear>
+            <Heading size={1} fit textColor="secondary">
+              Have fun and play with it!
+            </Heading>
+          </Appear>
+        </Slide>
+
+        <Slide bgImage={images.silverbullet} bgDarken="0.75" copyright="flickr photo by Ed Schipul https://flic.kr/p/7kFgYt shared under a Creative Commons (BY) license">
+          <Heading size={1} textColor="quartary" textFont="secondary">
+            But
+          </Heading>
+          <Heading fit>
+            It's not meant to be used for everything!
           </Heading>
         </Slide>
 
-        <Slide transition={["slide"]}>
+        <Slide transition={["slide"]} bgImage={images.decision} bgDarken="0.75" copyright="flickr photo by Dean Hochman https://flic.kr/p/qtyGZf shared under a Creative Commons (BY) license">
           <Heading size={1} fit textColor="quartary" textFont="secondary">
-            The fact you know FLUX / REACT
+            Choose wisely!
           </Heading>
-          <Heading size={1} fit textColor="tertiary">
-            doesn't mean to use it for EVERYTHING!
+          <Appear>
+            <Heading size={1} textColor="tertiary">
+              #architecture
+            </Heading>
+          </Appear>
+        </Slide>
+
+        <Slide bgImage={images.decision} bgDarken="0.75" copyright="flickr photo by Dean Hochman https://flic.kr/p/qtyGZf shared under a Creative Commons (BY) license">
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            Choose wisely!
+          </Heading>
+          <Heading size={1} textColor="tertiary">
+            #library
+          </Heading>
+        </Slide>
+
+        <Slide bgImage={images.decision} bgDarken="0.75" copyright="flickr photo by Dean Hochman https://flic.kr/p/qtyGZf shared under a Creative Commons (BY) license">
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            Choose wisely!
+          </Heading>
+          <Heading size={1} textColor="tertiary">
+            #EVERYTHING!
           </Heading>
         </Slide>
 
