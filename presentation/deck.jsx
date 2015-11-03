@@ -377,11 +377,12 @@ export default class extends React.Component {
 
         <Slide transition={["slide"]}>
           <Heading size={1} textColor="quartary" textFont="secondary">
-            Actions
+            Action
           </Heading>
           <List>
-            <ListItem><Appear fid="1">... contain at least the description of an intention to do something</Appear></ListItem>
-            <ListItem><Appear fid="2">... often include an additional payload</Appear></ListItem>
+            <ListItem><Appear fid="1">intention to do something</Appear></ListItem>
+            <ListItem><Appear fid="2">simple description (string)</Appear></ListItem>
+            <ListItem><Appear fid="3">optional: payload</Appear></ListItem>
           </List>
         </Slide>
 
@@ -390,32 +391,32 @@ export default class extends React.Component {
             Dispatcher
           </Heading>
           <List>
-            <ListItem><Appear fid="1">... dispatches actions to the registered stores</Appear></ListItem>
+            <ListItem><Appear fid="1">dispatches actions to the registered stores</Appear></ListItem>
           </List>
         </Slide>
 
         <Slide transition={["slide"]}>
           <Heading size={1} textColor="quartary" textFont="secondary">
-            Stores
+            Store
           </Heading>
           <List>
-            <ListItem><Appear fid="1">... hold state and data of the application</Appear></ListItem>
-            <ListItem><Appear fid="2">... register a callback with the dispatcher for specific actions</Appear></ListItem>
-            <ListItem><Appear fid="2">... react to actions and actualize their state</Appear></ListItem>
-            <ListItem><Appear fid="2">... fire events if they changed their state (in consequence of actions)</Appear></ListItem>
-            <ListItem><Appear fid="2">... are single sources of truth</Appear></ListItem>
-            <ListItem><Appear fid="2">In real-world apps there are many stores</Appear></ListItem>
+            <ListItem><Appear fid="1">holds state and data of the application</Appear></ListItem>
+            <ListItem><Appear fid="2">registers a callback at the dispatcher</Appear></ListItem>
+            <ListItem><Appear fid="3">updates state when relevant action appears</Appear></ListItem>
+            <ListItem><Appear fid="4">fires an event when state changed</Appear></ListItem>
+            <ListItem><Appear fid="5">single sources of truth</Appear></ListItem>
+            <ListItem><Appear fid="6">In real-world apps there are many stores</Appear></ListItem>
           </List>
         </Slide>
 
         <Slide transition={["slide"]}>
           <Heading size={1} textColor="quartary" textFont="secondary">
-            Views
+            View
           </Heading>
           <List>
-            <ListItem><Appear fid="1">... react to change events from stores</Appear></ListItem>
-            <ListItem><Appear fid="2">Any number of components can react to change events</Appear></ListItem>
-            <ListItem><Appear fid="2">... trigger actions</Appear></ListItem>
+            <ListItem><Appear fid="1">triggers actions</Appear></ListItem>
+            <ListItem><Appear fid="2">acts on change events from stores</Appear></ListItem>
+            <ListItem><Appear fid="3">0..n components can act on change events</Appear></ListItem>
           </List>
         </Slide>
 
