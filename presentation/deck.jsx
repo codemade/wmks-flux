@@ -188,42 +188,42 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Add article to shopping cart"
           </Text>
-          <Heading size={2} fit>
+          <Heading size={2} fit textColor="tertiary">
             Display the article list
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # view
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Add article to shopping cart"
           </Text>
-          <Heading size={2} fit>
+          <Heading size={2} fit textColor="tertiary">
             User clicks on an article
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # action
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Add article to shopping cart"
           </Text>
-          <Heading size={2} fit>
+          <Heading size={2} fit textColor="tertiary">
             Store article in shopping cart
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # store
             </Heading>
           </Appear>
@@ -241,42 +241,42 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Redeem a coupon"
           </Text>
-          <Heading size={2} fit>
+          <Heading size={2} fit textColor="tertiary">
             Display shopping cart
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # view
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Redeem a coupon"
           </Text>
-          <Heading size={2} fit>
-            User enters coupon code and clicks 'redeem'
+          <Heading size={2} fit textColor="tertiary">
+            User enters code and clicks 'redeem'
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # action
             </Heading>
           </Appear>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
-          <Text textColor="#65878F">
+          <Text textColor="secondary">
             Use Case: "Redeem a coupon"
           </Text>
-          <Heading size={2} fit>
+          <Heading size={2} fit textColor="tertiary">
             Reduce total price by 15%
           </Heading>
           <Appear>
-            <Heading size={2} textColor="tertiary">
+            <Heading size={2} textColor="quartary">
               # store
             </Heading>
           </Appear>
@@ -294,25 +294,25 @@ export default class extends React.Component {
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-            <Heading size={1} textColor="tertiary" fit>
-              How do action details get into the store?
-            </Heading>
+          <Text textColor="tertiary">
+            How do action details get into the store?
+          </Text>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-            <Heading size={1} textColor="tertiary" fit>
-              How many stores do you need?
-            </Heading>
+          <Text textColor="tertiary">
+            How many stores do you need?
+          </Text>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-          <Heading size={1} textColor="tertiary" fit>
+          <Text textColor="tertiary">
             What if many stores are interested in an action?
-          </Heading>
+          </Text>
         </Slide>
 
         <Slide>
@@ -332,7 +332,7 @@ export default class extends React.Component {
         </Slide>
 
         <Slide>
-          <Heading size={1} fit>
+          <Heading size={1} fit textColor="quartary">
             Do it like a mailing list.
           </Heading>
         </Slide>
