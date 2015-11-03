@@ -297,7 +297,7 @@ export default class extends React.Component {
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
             <Heading size={1} textColor="white" fit>
-              How did the infos of actions get into the store?
+              How do action details get into the store?
             </Heading>
         </Slide>
 
@@ -305,23 +305,21 @@ export default class extends React.Component {
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
             <Heading size={1} textColor="white" fit>
-              How many stores are there?
+              How many stores do you need?
             </Heading>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.95">
           <Image src={images.view_action_store} width="900" />
           <br/><br/>
-            <Heading size={1} textColor="white" fit>
-              What if an action is relevant for more than one store?
-            </Heading>
+          <Heading size={1} textColor="white" fit>
+            What if many stores are interested in an action?
+          </Heading>
         </Slide>
-
 
         <Slide bgImage={images.caffeine} bgDarken="0.99">
           <Image src={images.view_action_store_dispatcher} width="900"/>
         </Slide>
-
 
         <Slide>
           <Image src={images.view_action_store_dispatcher} width="900"/>
