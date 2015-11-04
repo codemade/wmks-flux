@@ -409,7 +409,7 @@ export default class extends React.Component {
             <ListItem><Appear fid="2">registers a callback at the dispatcher</Appear></ListItem>
             <ListItem><Appear fid="3">updates state when relevant action appears</Appear></ListItem>
             <ListItem><Appear fid="4">fires an event when state changed</Appear></ListItem>
-            <ListItem><Appear fid="5">single sources of truth</Appear></ListItem>
+            <ListItem><Appear fid="5">single source of truth</Appear></ListItem>
             <ListItem><Appear fid="6">In real-world apps there are many stores</Appear></ListItem>
           </List>
         </Slide>
