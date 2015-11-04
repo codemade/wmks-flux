@@ -169,8 +169,6 @@ export default class extends React.Component {
           <a style={buttonStyles} href="http://codemade.js.org/caffeine" target="_blank">Go to coffee store</a>
         </Slide>
 
-        <Slide bgImage={images.caffeine_components}></Slide>
-
         <Slide bgImage={images.caffeine} bgDarken="0.9">
           <Heading size={1}>
             use cases
@@ -437,12 +435,8 @@ export default class extends React.Component {
               Cool!
             </Heading>
           </Appear>
-          <Appear>
-            <Heading size={1} fit textColor="secondary">
-              Have fun and play with it!
-            </Heading>
-          </Appear>
         </Slide>
+
 
         <Slide bgImage={images.silverbullet} bgDarken="0.75" copyright="flickr photo by Ed Schipul https://flic.kr/p/7kFgYt shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
@@ -480,6 +474,16 @@ export default class extends React.Component {
           <Heading size={1} textColor="tertiary">
             #EVERYTHING!
           </Heading>
+        </Slide>
+
+        <Slide transition={["slide"]} bgDarken="0.92" bgImage={images.caffeine} showForkMeBadge="true">
+          <Image src={images.codemade} width="200"/>
+          <Appear>
+            <Heading size={1} fit textColor="secondary">
+              Have fun and play with it!
+            </Heading>
+          </Appear>
+
         </Slide>
 
         <Slide transition={["slide"]} bgImage={images.applauseMinions} bgDarken="0.7">
