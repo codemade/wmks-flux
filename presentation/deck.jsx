@@ -16,6 +16,8 @@ const images = {
   github: require("./img/github.svg"),
   caffeine: require("./img/caffeine.png"),
   future: require("./img/future.jpg"),
+  pattern: require("./img/pattern.jpg"),
+  problem: require("./img/problem.jpg"),
   caffeine_components: require("./img/caffeine_components.png"),
   view_action_store: require("./img/view_action_store.png"),
   view_action_store_dispatcher: require("./img/view_action_store_dispatcher.png"),
@@ -98,7 +100,7 @@ export default class extends React.Component {
             </Fill>
           </Layout>
         </Slide>
-        <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.future} copyright="flickr photo by JD Hancock https://flic.kr/p/fxqgHb shared under a Creative Commons (BY) license">
+        <Slide transition={["slide"]} bgDarken="0.7" bgImage={images.future} copyright="flickr photo by JD Hancock https://flic.kr/p/fxqgHb shared under a Creative Commons (BY) license">
           <Heading size={1} fit textColor="quartary" textFont="secondary">
             What is Flux ?
           </Heading>
@@ -112,19 +114,23 @@ export default class extends React.Component {
           </Appear>
         </Slide>
 
+        <Slide transition={["slide"]} bgColor="#e74c3c">
+          <Heading size={1} fit textColor="tertiary" textFont="secondary">
+            What you do NOT get
+          </Heading>
+        </Slide>
         <Slide bgColor="#e74c3c">
           <Heading size={2} textColor="tertiary">
-            # no framework
+            # a framework
+          </Heading>
+        </Slide>
+        <Slide bgColor="#e74c3c">
+          <Heading size={2} textColor="tertiary">
+            # a library
           </Heading>
         </Slide>
 
-        <Slide bgColor="#e74c3c">
-          <Heading size={2} textColor="tertiary">
-            # no library
-          </Heading>
-        </Slide>
-
-        <Slide bgColor="#27ae60">
+        <Slide bgImage={images.pattern} bgDarken="0.7" copyright="flickr photo by Tuncay https://flic.kr/p/o6PMo7 shared under a Creative Commons (BY) license">
           <Heading size={2} textColor="tertiary">
             # just a pattern
           </Heading>
@@ -154,7 +160,7 @@ export default class extends React.Component {
           </Heading>
         </Slide>
 
-        <Slide>
+        <Slide bgImage={images.problem} bgDarken="0.6" copyright="flickr photo by Neil Turner https://flic.kr/p/9mZd shared under a Creative Commons (BY) license">
           <Heading size={1} fit>
             The real problem:
           </Heading>
@@ -375,7 +381,7 @@ export default class extends React.Component {
           <Text textColor="secondary">
             Subscribers get notified & pull new mails.
           </Text>
-            <Heading size={2} textColor="tertiary" fit>
+            <Heading size={2} textColor="tertiary">
               # pulls data from store
             </Heading>
         </Slide>
@@ -396,7 +402,8 @@ export default class extends React.Component {
             Dispatcher
           </Heading>
           <List>
-            <ListItem><Appear fid="1">dispatches actions to the registered stores</Appear></ListItem>
+            <ListItem><Appear fid="1">receives all actions</Appear></ListItem>
+            <ListItem><Appear fid="2">dispatches actions to the registered stores</Appear></ListItem>
           </List>
         </Slide>
 
