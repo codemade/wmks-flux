@@ -56,12 +56,19 @@ export default class extends React.Component {
   render() {
     return (
       <Deck transitionDuration={800}>
-        <Slide transition={["slide"]}>
-          <Heading textSize="12em" lineHeight={0.1} textColor="quartary" textFont="secondary">
+        <Slide transition={["slide"]} copyright="Powered by Spectacle, the ReactJS based presentation library (https://github.com/FormidableLabs/spectacle)">
+          <Heading textSize="12em" lineHeight={0.1} textColor="tertiary" textFont="secondary">
             Flux
           </Heading>
+          <Heading textSize="2em">
+            <a href="https://facebook.github.io/flux/" target="_blank" className="facebook_link">
+              - application architecture by facebook -
+            </a>
+          </Heading>
+          <br />
+          <br />
           <Image src={images.flux} width="400px"/>
-          <Text bold caps textColor="secondary">
+          <Text bold caps textColor="tertiary">
             Webmontag Kassel, 09. November 2015
           </Text>
         </Slide>
