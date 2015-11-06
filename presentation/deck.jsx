@@ -46,10 +46,15 @@ const buttonStyles = {
   backgroundColor: '#3498db',
   border: 'none',
   borderRadius: '4px',
-  fontSize: '20px',
+  fontSize: '30px',
   padding: '10px',
   color: 'white',
   textDecoration:'none'
+};
+
+const githubUrlStyles = {
+  fontSize:'20px',
+  lineHeight: '1.5' 
 };
 
 export default class extends React.Component {
@@ -57,7 +62,7 @@ export default class extends React.Component {
     return (
       <Deck transitionDuration={800}>
         <Slide transition={["slide"]} copyright="Powered by Spectacle, the ReactJS based presentation library (https://github.com/FormidableLabs/spectacle)">
-          <Heading textSize="12em" lineHeight={0.1} textColor="tertiary" textFont="secondary">
+          <Heading textSize="12em" lineHeight={0.1} textColor="tertiary" textFont="primary">
             Flux
           </Heading>
           <Heading textSize="2em">
@@ -108,7 +113,7 @@ export default class extends React.Component {
           </Layout>
         </Slide>
         <Slide transition={["slide"]} bgDarken="0.7" bgImage={images.future} copyright="flickr photo by JD Hancock https://flic.kr/p/fxqgHb shared under a Creative Commons (BY) license">
-          <Heading size={1} fit textColor="quartary" textFont="secondary">
+          <Heading size={1} fit textColor="quartary" textFont="primary">
             What is Flux ?
           </Heading>
           <br />
@@ -144,7 +149,7 @@ export default class extends React.Component {
         </Slide>
 
         <Slide transition={["slide"]}>
-          <Heading size={1} fit textColor="quartary" textFont="secondary">
+          <Heading size={1} fit textColor="quartary" textFont="primary">
             Why Flux ?
           </Heading>
         </Slide>
@@ -179,7 +184,11 @@ export default class extends React.Component {
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.9">
-          <a style={buttonStyles} href="http://codemade.js.org/caffeine" target="_blank">Go to coffee store</a>
+          <Heading size={1} fit caps>
+              Real world example
+            </Heading>
+            <br/><br/><br/>
+            <a style={buttonStyles} href="http://codemade.js.org/caffeine" target="_blank">Go to coffee store</a>
         </Slide>
 
         <Slide bgImage={images.caffeine} bgDarken="0.9">
@@ -409,7 +418,7 @@ export default class extends React.Component {
             Dispatcher
           </Heading>
           <List>
-            <ListItem><Appear fid="1">receives all actions</Appear></ListItem>
+            <ListItem><Appear fid="1">receives all actions from views</Appear></ListItem>
             <ListItem><Appear fid="2">dispatches actions to the registered stores</Appear></ListItem>
           </List>
         </Slide>
@@ -420,8 +429,8 @@ export default class extends React.Component {
           </Heading>
           <List>
             <ListItem><Appear fid="1">holds state and data of the application</Appear></ListItem>
-            <ListItem><Appear fid="2">registers a callback at the dispatcher</Appear></ListItem>
-            <ListItem><Appear fid="3">updates state when relevant action appears</Appear></ListItem>
+            <ListItem><Appear fid="2">receives actions from the dispatcher</Appear></ListItem>
+            <ListItem><Appear fid="3">updates state when action appears</Appear></ListItem>
             <ListItem><Appear fid="4">fires an event when state changed</Appear></ListItem>
             <ListItem><Appear fid="5">single source of truth</Appear></ListItem>
             <ListItem><Appear fid="6">In real-world apps there are many stores</Appear></ListItem>
@@ -497,7 +506,10 @@ export default class extends React.Component {
               Have fun and play with it!
             </Heading>
           </Appear>
-
+          <Appear>
+          <br/>
+          <Text textColor="tertiary">github.com/codemade/caffeine</Text>
+          </Appear>
         </Slide>
 
         <Slide transition={["slide"]} bgImage={images.applauseMinions} bgDarken="0.7">
