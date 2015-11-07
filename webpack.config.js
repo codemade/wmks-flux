@@ -5,9 +5,6 @@ var config = require("./presentation/config");
 var webpackConfig = getConfig({
   in: "./index.jsx",
   out: "dist",
-  output: {
-    publicPath:'http://codemade.js.org/wmks-flux/'
-  },
   clearBeforeBuild: true,
   html: config.html
 });
