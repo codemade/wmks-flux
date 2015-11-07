@@ -54,7 +54,7 @@ const buttonStyles = {
 
 const githubUrlStyles = {
   fontSize:'20px',
-  lineHeight: '1.5' 
+  lineHeight: '1.5'
 };
 
 export default class extends React.Component {
@@ -197,8 +197,8 @@ export default class extends React.Component {
           </Heading>
           <List>
             <ListItem><Appear fid="1">Show all products</Appear></ListItem>
-            <ListItem><Appear fid="2">Add article to shopping cart</Appear></ListItem>
-            <ListItem><Appear fid="3">Filter articles by intensity</Appear></ListItem>
+            <ListItem><Appear fid="2">Filter articles by intensity</Appear></ListItem>
+            <ListItem><Appear fid="3">Add article to shopping cart</Appear></ListItem>
             <ListItem><Appear fid="4">Show all articles in the shopping cart</Appear></ListItem>
             <ListItem><Appear fid="5">Increase/decrease article amount</Appear></ListItem>
             <ListItem><Appear fid="6">Redeem a coupon</Appear></ListItem>
