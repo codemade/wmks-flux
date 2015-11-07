@@ -362,17 +362,30 @@ export default class extends React.Component {
 
         <Slide bgImage={images.mailinglist} bgDarken="0.8" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Heading size={1} fit textColor="quartary">
-            Do it like a mailing list.
+            Do it like a...
           </Heading>
         </Slide>
 
         <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
+          <Heading size={1} fit textColor="quartary" textFont="secondary">
+            Mailing List
+          </Heading>
+          <br />
+          <List>
+            <ListItem>
+              <Appear>If there is something new =&gt; send mail to all subscribers.</Appear>
+            </ListItem>
+            <ListItem>
+              <Appear>Subscribers get notified about new mails.</Appear>
+            </ListItem>
+            <ListItem>
+              <Appear>Subscribers pull & read new mails.</Appear>
+            </ListItem>
+          </List>
+        </Slide>
+
+        <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
-          <Appear>
-            <Text textColor="secondary">
-              If there is something new, send a mail to all subscribers.
-            </Text>
-          </Appear>
           <Appear>
             <Heading size={2} textColor="tertiary">
               # Store fires event
@@ -382,24 +395,16 @@ export default class extends React.Component {
 
         <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
-          <Text textColor="secondary">
-            Subscribers get notified & pull new mails.
-          </Text>
-          <Appear>
-            <Heading size={2} textColor="tertiary">
-              # View gets notified
-            </Heading>
-          </Appear>
+          <Heading size={2} textColor="tertiary">
+            # View gets notified
+          </Heading>
         </Slide>
 
         <Slide bgImage={images.mailinglist} bgDarken="0.9" copyright="flickr photo by r. nial bradshaw https://flic.kr/p/fcJJpf shared under a Creative Commons (BY) license">
           <Image src={images.view_action_store_event} width="800"/>
-          <Text textColor="secondary">
-            Subscribers get notified & pull new mails.
-          </Text>
-            <Heading size={2} textColor="tertiary">
-              # pulls data from store
-            </Heading>
+          <Heading size={2} textColor="tertiary">
+            # pulls data from store
+          </Heading>
         </Slide>
 
         <Slide transition={["slide"]} bgDarken="0.85" bgImage={images.action} copyright="flickr photo by Satish Viswanath https://flic.kr/p/gPnyDr shared under a Creative Commons (BY) license">
@@ -454,12 +459,11 @@ export default class extends React.Component {
           </Heading>
           <br />
           <Appear>
-            <Heading size={1} textColor="tertiary">
+            <Heading size={1} textColor="tertiary" fit>
               Cool!
             </Heading>
           </Appear>
         </Slide>
-
 
         <Slide bgImage={images.silverbullet} bgDarken="0.75" copyright="flickr photo by Ed Schipul https://flic.kr/p/7kFgYt shared under a Creative Commons (BY) license">
           <Heading size={1} textColor="quartary" textFont="secondary">
